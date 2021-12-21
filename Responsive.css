@@ -1,3 +1,12 @@
+#portfolio{
+    width: 100%;
+}
+#contacts{
+    height: 1800px;
+}
 #contacts, #about{
     width: 50%;
+}
+#experience{
+    flex-wrap: wrap;
 }
