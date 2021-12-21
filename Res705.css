@@ -10,3 +10,12 @@
 #about{
     width: 100%;
 }
+#experience{
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    
+}
+.exp{
+    margin: auto;
+}
