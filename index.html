@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asper Web-development round_2</title>
+    <link rel="stylesheet" href="all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width:991px)" href="CSS\repo.css">
+    <link rel="stylesheet" media="screen and (max-width:799px)" href="CSS\phone.css">
+    <link rel="stylesheet" media="screen and (max-width:500px)" href="CSS\small.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 1000;
+        }
+
+        body {
+            background: url('images\\background.jpg') center center/cover;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        #portfolio {
+            display: flex;
+            height: 1332px;
+        }
+
+        #myImage {
+            border: 20px solid rgb(224, 19, 19);
+            border-left: none;
+            border-right: none;
+            margin: 60px 0px;
+            width: 100%;
+            height: 341px;
+
+        }
+
+        #contacts {
+            border: 3px solid rgb(250, 250, 250);
+            border-radius: 4px;
+            background-color: rgb(243, 233, 233);
+            margin: 5px 3px 6px 97px;
+            padding: 63px 0px 0px 0px;
+            width: 26%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #contacts h3 {
+            color: rgb(255, 166, 0);
+            font-size: 1.5rem;
+        }
+
+        #contacts h1 {
+            font-size: 1.3rem;
+            margin: 0px 3px 21px 49px;
+        }
+
+        #about {
+            width: 58%;
+            padding: 68px 0px 0px 0px;
+            margin: 6px 4px;
+        }
+
+        #contacts h3,
+        h1,
+        p {
+            margin: 1px 22px 3px 50px;
+        }
+
+        #linkedin {
+            margin: 0px 2px -4px 0px;
+            width: 10%;
+            height: 20px;
+        }
+
+        #education {
+            display: flex;
+        }
+
+        #Inter-1,
+        #Inter-2 {
+            width: 95%;
+            height: 140px;
+            border-radius: 30px;
+        }
+
+        #experience {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-content: center;
+        }
+
+        .present {
+            border: 1px solid red;
+            background-color: red;
+            color: aliceblue;
+            border-radius: 10px;
+            padding: 0px 15px;
+            margin: 4px 0px;
+        }
+
+        .exp {
+            border: 2px solid rgb(247, 246, 246);
+            border-radius: 15px;
+            margin: 4px 3px;
+        }
+
+        #about hr {
+            background-color: rgb(255, 6, 6);
+            border-radius: 3px;
+            width: 7%;
+            height: 5px;
+            margin: 8px 50px;
+        }
+
+        #about h2 {
+            margin: 4px 46px;
+            font-size: 1.2rem;
+        }
+
+        #name {
+            font-size: 2.6rem;
+        }
+
+        #edu,
+        .ab,
+        #exp {
+            margin: 58px 3px 8px 48px;
+        }
+
+        #reference {
+            margin: 46px 0px 0px 0px;
+        }
+
+        #phone:hover,
+        #email:hover,
+        #LinkedIn:hover {
+            color: rgb(41, 102, 182);
+            font-size: 1.2rem;
+        }
+
+        #phone,
+        #email,
+        #LinkedIn {
+            margin: 8px 46px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .exp:hover {
+            font-size: 1.3rem;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="portfolio">
+        <div id="contacts">
+            <h3>Address</h3>
+            <p>Nehru nagar,<br>
+                near HP gas godown,rewa (M.P)</p>
+            <img src="images/myImage.jpeg" id="myImage">
+            <h1>CONTACT</h1>
+            <p id="phone"><i class="fas fa-phone-alt"></i><b>Phone</b><br>+91-9200499116</p>
+            <p id="email"><i class="fas fa-envelope-open-text"></i><b>E-mail</b><br>salilsharma562@gmail.com</p>
+            <p id="LinkedIn"><img src="images/linkedinLogo.png" id="linkedin"><b><a
+                        href="http://linkedin.com/in/salil-sharma-327153205" target="_blank">LinkedIn</a></b><br></p>
+            <section id="reference">
+                <h1>REFERENCE</h1>
+                <p>Vivek Kumar Sharma<br>
+                    Manager | SBI-mumbai Branch<br>
+                    Phone: +91-7869642553</p>
+            </section>
+        </div>
+        <div id="about">
+            <h1 id="name">SALIL<br><b>SHARMA</b></h1>
+            <hr>
+            <h2>Web-developer || Programmer</h2>
+            <h1 class="ab">ABOUT ME</h1>
+            <p>Hello there!<br>
+                This is salil here. I am currently in my 2nd year and I am pursuing my <br>
+                B.Tech in IT. My hobbies include Playing cricket, Solving maths, Playing chess<br>
+                and Reading books.</p>
+            <h1 id="edu">EDUCATION</h1>
+            <section id="education">
+                <div>
+                    <p><b>SCHOOLING (10+2):</b><br>
+                        (PCM)<br>Jyoti senior secondary school,<br>
+                        Rewa(M.P)<br>2007-2019</p>
+                </div>
+                <div>
+                    <p><i class="fa fa-graduation-cap" aria-hidden="true"></i><b>GRADUATION:</b><br>
+                        B.Tech (Information Technology),<br>University Institute of Technology-RGPV,<br>
+                        Bhopal.<br>2020-2024</p>
+                </div>
+            </section>
+            <h1 id="exp">EXPERIENCE</h1>
+            <section id="experience">
+                <div class="exp">
+                    <p><b>Web-developer Intern</b><br>
+                        <b class="present">PRESENT</b> LetsGrowMore / Bhopal,(M.P)<br>
+                        <img src="images/Internship-1.png" id="Inter-1">
+                    </p>
+                    <p>I am currently present in the virtual internship program<br>
+                        in LetsGrowMore and learning more and more.I got this<br> opportunity
+                        by appling in companies website.</p>
+                </div>
+                <div class="exp">
+                    <p><b>Data-visualization with python</b><br>
+                        <b class="present">Sep-2021 To Nov-2021</b> TCR / Navi mumbai<br>
+                        <img src="images\Internship_2.jpeg" id="Inter-2">
+                    </p>
+                    <p>
+                        This was a great internship program which helped me<br>
+                        to gain experience and helped me to learn some new <br>
+                        skills like:- Visulalizing data using python, learning<br>
+                        new libraries of python. Also I worked on 2-projects.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </section>
+</body>
+
+</html>

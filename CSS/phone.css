@@ -1,0 +1,7 @@
+#experience {
+    display: flex;
+    flex-direction: column;
+}
+#contacts{
+    height: 2000px;
+}
