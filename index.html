@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,9 @@
     <title>Asper Web-development round_2</title>
     <link rel="stylesheet" href="all.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" media="screen and (max-width:986px)" href="Responsive.css">
-    <link rel="stylesheet" media="screen and (max-width:705px)" href="Res705.css">
     <style>
+       
         * {
-            margin: 0;
-            padding: 0;
             font-family: 'Open Sans', sans-serif;
             font-weight: 1000;
         }
@@ -45,9 +43,9 @@
             background-color: rgb(243, 233, 233);
             margin: 5px 3px 6px 97px;
             padding: 63px 0px 0px 0px;
-            width: 26%;
             display: flex;
             flex-direction: column;
+            height: 1200px;
         }
 
         #contacts h3 {
@@ -93,7 +91,7 @@
             display: flex;
             flex-direction: row;
             justify-content: center;
-            align-content: center;
+            align-items: center;
         }
 
         .present {
@@ -158,6 +156,18 @@
         .exp:hover {
             font-size: 1.3rem;
             background-color: antiquewhite;
+        }
+        @media only screen and (max-width:891px){
+            #experience{
+                flex-direction: column;
+                
+            }
+            #about{
+                width: 100%;
+            }
+            #contacts{
+                height: auto;
+            }
         }
     </style>
 </head>
